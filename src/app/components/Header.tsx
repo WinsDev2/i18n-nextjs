@@ -40,8 +40,8 @@ export function Header() {
   };
 
   const Lang = [
-    { label: "Español", value: "es" },
-    { label: "English", value: "en" },
+    { label: t("es"), value: "es" },
+    { label: t("en"), value: "en" },
   ];
 
   return (
@@ -237,7 +237,7 @@ export function Header() {
                 }
                 onChange={onSelectChange}
                 placeholder={t("lang")}
-                className="w-full md:w-14rem"
+                className="w-full md:w-14rem" style={{padding:"8px", margin:"4px"}}
               />
             </div>
           </ul>

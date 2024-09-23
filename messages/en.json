@@ -1,20 +1,35 @@
 {
   "HomePage": {
-    "navhome":"Home",
-    "customer":"Customers",
-    "new":"Add new",
-    "search":"Search",
-    "purchase":"Purchases",
-    "message":"Messages",
-    "calendar":"Calendar",
-    "stats":"Stats",
-    "lang":"Select Language",
+    "navhome": "Home",
+    "customer": "Customers",
+    "new": "Add new",
+    "search": "Search",
+    "purchase": "Purchases",
+    "message": "Messages",
+    "calendar": "Calendar",
+    "stats": "Stats",
+    "lang": "Select Language",
     "title": "Manage Your phone",
-    "interface":"Simpler Interface",
+    "interface": "Simpler Interface",
     "intContent": "Pixel UI is the standard Android interface used on Google Pixel phones. It is a clean and simple interface that focuses on ease of use and performance.",
     "conectivity": "Extensive Connectivity",
-    "conContent":" Pixels are designed to connect you quickly and efficiently to the internet and other devices, giving you a seamless and complete user experience.",
-    "privacy":"Magical Privacy",
-    "privContent":"The Google Pixel offers a high level of security thanks to features such as the Titan M chip, regular security updates and detailed privacy controls. This allows you to have greater control over your data and protect yourself from cyber threats."
+    "conContent": " Pixels are designed to connect you quickly and efficiently to the internet and other devices, giving you a seamless and complete user experience.",
+    "privacy": "Magical Privacy",
+    "privContent": "The Google Pixel offers a high level of security thanks to features such as the Titan M chip, regular security updates and detailed privacy controls. This allows you to have greater control over your data and protect yourself from cyber threats.",
+    "en": "English",
+    "es": "Spanish"
+  },
+
+  "all_in_one": {
+    "heading": "ALL-IN-ONE",
+    "description": "Focus on the work that matters",
+    "details": "Ac turpis egestas maecenas pharetra convallis posuere morbi leo urna.",
+    "simpler": "Simpler Interface",
+    "description2": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "extensive": "Extensive Connectivity",
+    "description3": "Risus nec feugiat in fermentum posuere urna nec. Posuere sollicitudin aliquam ultrices sagittis.",
+    "magical": "Magical Privacy",
+    "description4": "Laoreet sit amet cursus sit. Velit ut tortor pretium viverra. Sollicitudin aliquam ultrices sagittis orci.",
+    "learn":"Learn More"
   }
 }

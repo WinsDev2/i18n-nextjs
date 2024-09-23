@@ -10,11 +10,26 @@
     "stats":"Estado",
     "lang":"Selecciona idioma",
     "title": "Gestione su telefono",
-    "interface":"Interfaz más sencilla",
+    "interface":"Interfaz más simple",
     "intContent": "Pixel UI es la interfaz estándar de Android utilizada en los teléfonos Google Pixel. Es una interfaz limpia y sencilla que se centra en la facilidad de uso y el rendimiento.",
-    "conectivity": "Amplia conectividad",
+    "conectivity": "Conectividad extensa",
     "conContent":"Los píxeles están diseñados para conectarte rápida y eficazmente a Internet y a otros dispositivos, ofreciéndote una experiencia de usuario completa y sin fisuras.",
     "privacy":"Privacidad mágica",
-    "privContent":"El Google Pixel ofrece un alto nivel de seguridad gracias a características como el chip Titan M, actualizaciones de seguridad periódicas y controles de privacidad detallados. Esto te permite tener un mayor control sobre tus datos y protegerte de las ciberamenazas."
+    "privContent":"El Google Pixel ofrece un alto nivel de seguridad gracias a características como el chip Titan M, actualizaciones de seguridad periódicas y controles de privacidad detallados. Esto te permite tener un mayor control sobre tus datos y protegerte de las ciberamenazas.",
+    "en":"Ingles",
+    "es":"Español"
+  },
+
+  "all_in_one": {
+    "heading": "TODO EN UNO",
+    "description": "Enfócate en el trabajo que importa",
+    "details": "En turpis egestas, maecenas convallis pharetra en la posición, morbi leo urna.",
+    "simpler": "Interfaz Más Simple",
+    "description2": "Duis aute irure dolor en reprehenderit en voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "extensive": "Conectividad Extensa",
+    "description3": "Risus nec feugiat en fermentum, posuere urna nec. Posuere sollicitudin aliquam ultrices sagittis.",
+    "magical": "Privacidad Mágica",
+    "description4": "Laoreet sit amet cursus sit. Velit ut tortor pretium viverra. Sollicitudin aliquam ultrices sagittis orci.",
+    "learn":"Leer Mas"
   }
 }
