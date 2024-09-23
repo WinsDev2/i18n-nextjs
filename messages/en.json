@@ -1,0 +1,11 @@
+{
+  "HomePage": {
+    "title": "Manage Your phone",
+    "interface":"Simpler Interface",
+    "intContent": "Pixel UI is the standard Android interface used on Google Pixel phones. It is a clean and simple interface that focuses on ease of use and performance.",
+    "conectivity": "Extensive Connectivity",
+    "conContent":" Pixels are designed to connect you quickly and efficiently to the internet and other devices, giving you a seamless and complete user experience.",
+    "privacy":"Magical Privacy",
+    "privContent":"The Google Pixel offers a high level of security thanks to features such as the Titan M chip, regular security updates and detailed privacy controls. This allows you to have greater control over your data and protect yourself from cyber threats."
+  }
+}
