@@ -11,12 +11,15 @@ import "primereact/resources/primereact.min.css";
 import "primeicons/primeicons.css";
 import "primeflex/primeflex.css";
 import Link from "next/link";
+import { useTranslations } from "next-intl";
 
 export function Header() {
   const [, startTransition] = useTransition();
   const router = useRouter();
   const pathname = usePathname();
   const [currentLocale, setCurrentLocale] = useState<string | null>(null);
+
+  const t = useTranslations("HomePage");
 
   const btnRef17 = useRef<null>(null);
   const btnRef18 = useRef<null>(null);
@@ -141,7 +144,7 @@ export function Header() {
                 className="p-ripple flex p-3 align-items-center text-gray-400 hover:text-white hover:bg-gray-800 font-medium border-round cursor-pointer transition-colors transition-duration-150"
               >
                 <i className="pi pi-home mr-2"></i>
-                <span>Home</span>
+                <span>{t("navhome")}</span>
                 <Ripple />
               </Link>
             </li>
@@ -160,7 +163,7 @@ export function Header() {
                   className="p-ripple flex p-3 align-items-center text-gray-400 hover:text-white hover:bg-gray-800 font-medium border-round cursor-pointer transition-colors transition-duration-150"
                 >
                   <i className="pi pi-users mr-2"></i>
-                  <span>Customers</span>
+                  <span>{t("customer")}</span>
                   <i className="pi pi-angle-down ml-auto lg:ml-3"></i>
                   <Ripple />
                 </a>
@@ -169,7 +172,7 @@ export function Header() {
                 <li>
                   <a className="p-ripple flex p-3 align-items-center text-gray-400 hover:text-white hover:bg-gray-800 transition-colors transition-duration-150">
                     <i className="pi pi-user-plus mr-2"></i>
-                    <span className="font-medium">Add New</span>
+                    <span className="font-medium">{t("new")}</span>
                     <Ripple />
                   </a>
                 </li>
@@ -188,7 +191,7 @@ export function Header() {
                       className="p-ripple flex p-3 align-items-center text-gray-400 hover:text-white hover:bg-gray-800 transition-colors transition-duration-150"
                     >
                       <i className="pi pi-search mr-2"></i>
-                      <span className="font-medium">Search</span>
+                      <span className="font-medium">{t("search")}</span>
                       <i className="pi pi-angle-down ml-auto lg:-rotate-90"></i>
                       <Ripple />
                     </a>
@@ -197,14 +200,14 @@ export function Header() {
                     <li>
                       <a className="p-ripple flex p-3 align-items-center text-gray-400 hover:text-white hover:bg-gray-800 transition-colors transition-duration-150">
                         <i className="pi pi-shopping-cart mr-2"></i>
-                        <span className="font-medium">Purchases</span>
+                        <span className="font-medium">{t("purchase")}</span>
                         <Ripple />
                       </a>
                     </li>
                     <li className="relative">
                       <a className="p-ripple flex p-3 align-items-center text-gray-400 hover:text-white hover:bg-gray-800 transition-colors transition-duration-150">
                         <i className="pi pi-comments mr-2"></i>
-                        <span className="font-medium">Messages</span>
+                        <span className="font-medium">{t("message")}</span>
                         <Ripple />
                       </a>
                     </li>
@@ -215,14 +218,14 @@ export function Header() {
             <li>
               <a className="p-ripple flex p-3 align-items-center text-gray-400 hover:text-white hover:bg-gray-800 font-medium border-round cursor-pointer transition-colors transition-duration-150">
                 <i className="pi pi-calendar mr-2"></i>
-                <span>Calendar</span>
+                <span>{t("calendar")}</span>
                 <Ripple />
               </a>
             </li>
             <li>
               <a className="p-ripple flex p-3 align-items-center text-gray-400 hover:text-white hover:bg-gray-800 font-medium border-round cursor-pointer transition-colors transition-duration-150">
                 <i className="pi pi-chart-line mr-2"></i>
-                <span>Stats</span>
+                <span>{t("stats")}</span>
                 <Ripple />
               </a>
             </li>
@@ -233,7 +236,7 @@ export function Header() {
                   Lang.find((lang) => lang.value === currentLocale) || null
                 }
                 onChange={onSelectChange}
-                placeholder={"Select Language"}
+                placeholder={t("lang")}
                 className="w-full md:w-14rem"
               />
             </div>

@@ -1,5 +1,14 @@
 {
   "HomePage": {
+    "navhome":"Home",
+    "customer":"Customers",
+    "new":"Add new",
+    "search":"Search",
+    "purchase":"Purchases",
+    "message":"Messages",
+    "calendar":"Calendar",
+    "stats":"Stats",
+    "lang":"Select Language",
     "title": "Manage Your phone",
     "interface":"Simpler Interface",
     "intContent": "Pixel UI is the standard Android interface used on Google Pixel phones. It is a clean and simple interface that focuses on ease of use and performance.",
